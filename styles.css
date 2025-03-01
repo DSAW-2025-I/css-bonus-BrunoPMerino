@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.name{
+    position: absolute;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 40vh;
+    width: 100vw;
+}
+
+.global-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+.blue-column1, .blue-column2 {
+    height: 115px;
+    width: 15px;
+    background: #060F55;
+    border-radius: 20px 20px 0 0;
+}
+
+.blue-line1, .blue-line2, .blue-line3{
+    height: 15px;
+    width: 50px;
+    background: #060F55;
+}
+
+.container-stair1 {
+    width: 200px;
+    height: 115px;
+    background: #6592CF;
+    padding-top: 25px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container-stair2{
+    height: 110px;
+    width: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.container-blocks1{
+    width: 200px;
+    height: 140px;
+    background: #F5D6B4;
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.orange-block{
+    width: 75px;
+    height: 75px;
+    background: #D86F45;
+}
+
+.orange-column{
+    height: 125px;
+    width: 25px;
+    position: absolute;
+    background: #D86F45;
+}
+
+.orange-line{
+    width: 125px;
+    height: 25px;
+    position: absolute;
+    background: #D86F45;
+}
+
+.container-present1{
+    width: 200px;
+    height: 140px;
+    background: #AC474B;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.white-circle1{
+    background: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 20px;
+    width: 20px;
+    border-radius: 20px 20px 0 20px;
+}
+
+.white-circle2{
+    background: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 20px;
+    width: 20px;
+    border-radius: 20px 20px 20px 0;
+}
+
+.red-circle1{
+    background: #AC474B;
+    height: 10px;
+    width: 10px;
+    border-radius: 20px 20px 0 20px;
+}
+
+.red-circle2{
+    background: #AC474B;
+    height: 10px;
+    width: 10px;
+    border-radius: 20px 20px 20px 0;
+}
+
+.white-square{
+    background: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 75px;
+    height: 75px;
+}
+
+.red-line{
+    height: 10px;
+    width: 75px;
+    position: absolute;
+    background: #AC474B;
+}
+
+.red-column{
+    width: 10px;
+    height: 75px;
+    position: absolute;
+    background: #AC474B;
+}
+
+.container-present3{
+    width: 75px;
+    height: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container-present2{
+    height: 115px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
